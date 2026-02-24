@@ -1,0 +1,50 @@
+/* 1) Reset básico */
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: system-ui, Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* 2) Layout centrado */
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+/* 3) Tipografía */
+h1, h2, h3 {
+  line-height: 1.2;
+}
+
+/* 4) Imágenes responsive */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 16px auto; /* centrada */
+  border-radius: 10px;
+}
+
+/* 5) Links */
+a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+/* 6) Navegación simple */
+nav {
+  display: flex;
+  gap: 16px;
+  padding: 12px 0;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 16px;
+}
+
+/* 7) Responsive: móvil */
+@media (max-width: 600px) {
+  .container { padding: 16px; }
+  nav { flex-direction: column; gap: 8px; }
+}
