@@ -6,7 +6,7 @@ date: 2026-01-10
 
 Hoy comienzo este blog como parte de mi práctica de **Desarrollo de Aplicaciones en Red**.
 
-En esta primera entrada quiero compartir una experiencia especial de viaje que marcó el inicio de nuevas  .
+En esta primera entrada quiero compartir una experiencia especial de viaje que marcó el inicio de nuevas aventuras.
 
 Este sitio fue creado utilizando **GitHub Pages** y **Jekyll** como generador de sitios estáticos.
 
